@@ -1,6 +1,6 @@
 # make_swe_bench_verified_mini
 
-Link to the dataset on huggingface: [https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-tiny](https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-tiny)
+Link to the dataset on huggingface: [https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-mini](https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-mini)
 
 If you use the [Inspect implementation](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/swe_bench), you can merely switch the `dataset: str = "princeton-nlp/SWE-bench_Verified",` to `dataset: str = "MariusHobbhahn/swe-bench-verified-mini",` in the "swe_bench.py" file.
 
