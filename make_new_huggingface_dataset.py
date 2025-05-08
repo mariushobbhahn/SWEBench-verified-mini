@@ -94,7 +94,7 @@ def main() -> None:
     print(f"Filtered dataset size: {filtered_dataset.num_rows} rows")
     
     # Update dataset name
-    update_dataset_name(filtered_dataset, "swe-bench-verified-tiny")
+    update_dataset_name(filtered_dataset, "swe-bench-verified-mini")
     
     # Show dataset preview
     dataset_glimpse(filtered_dataset)
@@ -107,7 +107,7 @@ def main() -> None:
     # Push to HuggingFace
     print("\nPushing dataset to HuggingFace...")
     filtered_dataset.push_to_hub(
-        "MariusHobbhahn/swe-bench-verified-tiny", 
+        "MariusHobbhahn/swe-bench-verified-mini",
         #private=True
     )
     print("Done!")
