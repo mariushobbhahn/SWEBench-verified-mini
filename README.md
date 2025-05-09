@@ -1,8 +1,8 @@
 # make_swe_bench_verified_mini
 
-Link to the dataset on huggingface: [https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-tiny](https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-tiny)
+Link to the dataset on huggingface: [https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-mini](https://huggingface.co/datasets/MariusHobbhahn/swe-bench-verified-mini)
 
-If you use the [Inspect implementation](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/swe_bench), you can merely switch the `dataset: str = "princeton-nlp/SWE-bench_Verified",` to `dataset: str = "MariusHobbhahn/swe-bench-verified-mini",` in the "swe_bench.py" file.
+If you use the [Inspect implementation](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/swe_bench) you can use the `swe_bench_verified_mini` task it provides by running `inspect eval inspect_evals/swe_bench_verified_mini`.
 
 SWEBench-verified-mini is a subset of SWEBench-verified that uses 50 instead of 500 datapoints, requires 5GB instead of 130GB of storage (only using django and sphinx environments) and has approximately the same distribution of performance, test pass rates and difficulty as the original dataset on 16 different models.
 
